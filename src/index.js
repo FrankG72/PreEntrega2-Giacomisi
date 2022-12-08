@@ -1,21 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Navbar from './NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Productos } from './ItemListContainer'
-import { BannerProd } from './BannerProductos'
+import App from './App'
 
 import './style.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
-    <>
+
+    <App/>
+/*     <>
         <Navbar/>
         <BannerProd/>
-        <Productos title="Accion"/>
-        <Productos title="Estrategia"/>
-        <Productos title="Plataformas"/>        
-        <Productos title="rol"/>
-    </>
+        <Productos title="Sandwiches"/>
+        <Productos title="Pizzas"/>
+        <Productos title="Picadas"/>        
+        <Productos title="Bebidas"/>
+    </> */
 )
